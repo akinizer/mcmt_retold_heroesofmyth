@@ -62,11 +62,20 @@
         <effect type="Data" amount="10" subtype="MaximumVelocity" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
 
         <effect type="Data" action="HandAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
-        <effect type="Data" action="HandAttack" amount="2.00" subtype="DamageArea" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target>
-        <effect type="Data" action="HandAttack" amount="0.50" subtype="DamageFlags" flags="Nature|Enemy" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" action="RangedAttack" amount="5.00" subtype="MaximumRange" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" action="RangedAttack" amount="4.0" subtype="NumberProjectiles" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
-			</effect>
+        <effect type="Data" action="RangedAttack" amount="4.0" subtype="DisplayedNumberProjectiles" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+
+        <effect type="Data" action="HandAttack" amount="2.50" subtype="DamageArea" relativity="Absolute">
+          <target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" action="RangedAttack" amount="2.50" subtype="DamageArea" relativity="Absolute">
+          <target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="1.00" subtype="ProtoUnitFlag" flag="AreaDamageConstant" relativity="Absolute">
+          <target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" action="HandAttack" amount="0.50" subtype="DamageFlags" flags="Nature|Enemy" relativity="Absolute">
+          <target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" action="RangedAttack" amount="0.50" subtype="DamageFlags" flags="Nature|Enemy" relativity="Absolute">
+          <target type="ProtoUnit">HeroProtagonist</target></effect>			
       </effects>
     </tech>
 </techtreemods>
