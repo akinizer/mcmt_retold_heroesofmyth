@@ -1,0 +1,72 @@
+<techtreemods>
+    <tech name="MCMT_Techs">
+      <status>ACTIVE</status>
+      <delay>0.5000</delay>
+      <flag>Volatile</flag>
+      <flag>Persistent</flag>
+      <flag>HideFromDialogs</flag>
+      <effects>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Arkantos</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">ArkantosUber</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">ArkantosGod</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">OdysseusSPC</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">AjaxSPC</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">AjaxOlder</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">ChironSPC</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Agamemnon</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Kastor</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">KastorYoung</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">KastorWithStaff</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Amanra</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">AmanraOlder</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Setna</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">SwordBearers</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Brokk</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Eitri</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Reginleif</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">KingFolstag</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">FolstagFlagBearer</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Prisoner</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">ArkantosBoar</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">AjaxBoar</target></effect>
+
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">YanFeifeng</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Houyi</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">CangJie</target></effect>
+        
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Yasuko</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Tatsuro</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Akari</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Sojobo</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Harumoto</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">HarumotoBlessed</target></effect>
+
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Tlacaelel</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Popocatepetl</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">PopocatepetlSnakeless</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Iztaccihuatl</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Huitzilopochtli</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Quetzalcoatl</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">Itzcoatl</target></effect>
+        <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="HeroProtagonist" relativity="Absolute"><target type="ProtoUnit">EitriHammer</target></effect>
+        
+        <effect type="Data" amount="-0.90" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="-0.99" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="-0.99" subtype="ArmorVulnerability" armortype="Crush" relativity="Percent"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        
+        <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="RangedAttackFlying" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="HandAttack" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="RangedAttack" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="RangedAttack" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="10" subtype="UnitRegenRate" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="10" subtype="MaximumVelocity" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+
+        <effect type="Data" action="HandAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" action="HandAttack" amount="2.00" subtype="DamageArea" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target>
+        <effect type="Data" action="HandAttack" amount="0.50" subtype="DamageFlags" flags="Nature|Enemy" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" action="RangedAttack" amount="5.00" subtype="MaximumRange" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" action="RangedAttack" amount="4.0" subtype="NumberProjectiles" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+			</effect>
+      </effects>
+    </tech>
+</techtreemods>
