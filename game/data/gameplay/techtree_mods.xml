@@ -54,14 +54,21 @@
         <effect type="Data" amount="-0.99" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" amount="-0.99" subtype="ArmorVulnerability" armortype="Crush" relativity="Percent"><target type="ProtoUnit">HeroProtagonist</target></effect>
         
+        <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="Gore" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="JumpAttack" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="RangedAttackFlying" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="HandAttack" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="RangedAttack" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="RangedAttack" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="BeamAttack" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="DashAttack" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="ChargedHandAttack" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" amount="1000.00" subtype="Damage" damagetype="Divine" action="ChargedRangedAttack" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" amount="10" subtype="UnitRegenRate" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" amount="10" subtype="MaximumVelocity" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
 
         <effect type="Data" action="HandAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" action="BeamAttack" amount="5.00" subtype="MaximumRange" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" action="RangedAttack" amount="5.00" subtype="MaximumRange" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" action="RangedAttack" amount="4.0" subtype="NumberProjectiles" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" action="RangedAttack" amount="4.0" subtype="DisplayedNumberProjectiles" relativity="Absolute"><target type="ProtoUnit">HeroProtagonist</target></effect>
@@ -70,12 +77,21 @@
           <target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" action="RangedAttack" amount="2.50" subtype="DamageArea" relativity="Absolute">
           <target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" action="BeamAttack" amount="2.50" subtype="DamageArea" relativity="Absolute">
+          <target type="ProtoUnit">HeroProtagonist</target></effect>
+        <effect type="Data" action="BeamAttack" amount="2.50" subtype="DamageArea" relativity="Absolute">
+          <target type="ProtoUnit">JumpAttack</target></effect>
+
         <effect type="Data" amount="1.00" subtype="ProtoUnitFlag" flag="AreaDamageConstant" relativity="Absolute">
           <target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" action="HandAttack" amount="0.50" subtype="DamageFlags" flags="Nature|Enemy" relativity="Absolute">
           <target type="ProtoUnit">HeroProtagonist</target></effect>
         <effect type="Data" action="RangedAttack" amount="0.50" subtype="DamageFlags" flags="Nature|Enemy" relativity="Absolute">
-          <target type="ProtoUnit">HeroProtagonist</target></effect>			
+          <target type="ProtoUnit">HeroProtagonist</target></effect>		
+        <effect type="Data" action="BeamAttack" amount="0.50" subtype="DamageFlags" flags="Nature|Enemy" relativity="Absolute">
+          <target type="ProtoUnit">HeroProtagonist</target></effect>		
+        <effect type="Data" action="JumpAttack" amount="0.50" subtype="DamageFlags" flags="Nature|Enemy" relativity="Absolute">
+          <target type="ProtoUnit">HeroProtagonist</target></effect>
       </effects>
     </tech>
 </techtreemods>
